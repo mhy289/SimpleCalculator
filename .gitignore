@@ -1,0 +1,42 @@
+# 编译生成的文件
+hex_calculator
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 编译过程中生成的中间文件
+*.i
+*.s
+*.lo
+*.la
+*.a
+*.lib
+
+# 构建目录
+build/
+bin/
+obj/
+cmake-build-debug/
+cmake-build-release/
+
+# 日志文件
+*.log
+
+# 编辑器配置文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 自动生成的文件
+*.generated.c
+*.generated.h
+
+# 测试输出
+test_output/
