@@ -292,9 +292,9 @@ void print_error(const char* expr, ErrorType error, int error_pos) {
 int main() {
     system("chcp 65001"); // 需要额外设置控制台为UTF-8
     char expression[1024];
-    printf("=== 十六进制四则运算计算器 ===\n");
-    printf("支持十进制(整数和小数)和十六进制(0x开头)数字\n");
-    printf("支持 +, -, *, / 运算\n");
+    printf("=========== 十六进制四则运算计算器 ============\n");
+    printf("===支持十进制(整数和小数)和十六进制(0x开头)数字===\n");
+    printf("===========支持 +, -, *, / 运算=============\n");
 
 
     while (1) {
